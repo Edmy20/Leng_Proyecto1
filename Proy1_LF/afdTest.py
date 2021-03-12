@@ -2,7 +2,7 @@ tokens  = []
 
 #line = 'La musica de Minecraft combina con cualquier situacion'
 
-line = "1241"
+line = "124g1"
 
 
 def tda(line):
