@@ -1,4 +1,6 @@
 from archivo import *
+from menu import secciones
+from menu import fda_menu
 seguir =True
 
 while seguir:
@@ -22,7 +24,11 @@ while seguir:
  
     elif op=='3':
         print("-------------------------------Generar Menú----------------------------------------------")
-        print(data)
+        tokens = fda_menu(data)
+        for seccion in secciones:
+            print(seccion.nombre," =")
+            for item in seccion.item_seccion:
+                print(item.identificador,";",item.cadena[1],";",item.precio,";",item.cadena[0])
 
 
     elif op=='4':

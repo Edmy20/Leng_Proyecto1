@@ -5,7 +5,7 @@ class item_seccion:
         self.cadena= cadena
 
 class seccion:
-    def __init__(self,nombre,item_seccion):
+    def __init__(self,nombre = None,item_seccion = None):
         self.nombre = nombre
         self.item_seccion = item_seccion
 
