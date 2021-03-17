@@ -1,12 +1,12 @@
 restaurante='Restaurante LFP'
 'Bebidas'  :
-[bebida_1;'Bebida #1';11.;'Descripcin Bebida 1'    ]
-[ bebida_2;'Bebida #2';10.50;    'Descripcin Bebida 2']
+[bebida_1;$'Bebida #1';11.;'Descripcin Bebida 1'  $  ]
+[ bebida_2;'Bebida #2';10.50;    'ñDescripcin Bebida 2']
 
 'Desayunos':
 [d1.;'Desayuno 1';45.00;'Descripcin Desayuno 1']
-[d2 ;'Desayuno 2';    40.   ;'Descripcin Desayuno 2']
+[d%2 ;'Desay$uno 2';  !  40.   ;'DescripciÖn Desayuno 2']
 [d3;'Desayuno 3';35;'Descripción Desayuno 3']
 
 '  Postres':
-[   pos_001;'Postre 1'   ;25;'Descripcin Postre 1']
+[ """  pos_001;'Postre 1'   ;2"5;'Descripción Postre 1']

@@ -1,6 +1,6 @@
 from tkinter.filedialog import askopenfilename
 from tkinter import Tk
-
+import re
 def cargar():
     Tk().withdraw()
     ruta = askopenfilename() 
@@ -9,7 +9,7 @@ def cargar():
 
 
 def leer(ruta):
-    archivo = open(ruta,'r')
+    archivo = open(ruta,encoding="utf8")
     data = archivo.read()
     archivo.close()
 

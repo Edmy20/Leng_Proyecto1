@@ -17,3 +17,21 @@ class token:
         self.no = no
         self.fila = fila
         self.columna = columna
+
+class factura:
+    def __init__(self,nombre=None,nit=None,direccion=None,porcentaje=None,ordenes=None,tot=None,stt=None,propina=None):
+        self.nombre = nombre
+        self.nit = nit
+        self.direccion = direccion 
+        self.porcentaje = porcentaje
+        self.ordenes = ordenes
+        self.tot = tot
+        self.stt = stt
+        self.propina = propina
+class orden:
+    def __init__(self, cantidad = None, precio=None,id = None, tt=None, producto = None):
+        self.cantidad = cantidad
+        self.precio = precio
+        self.id = id
+        self.tt = tt
+        self.producto = producto
